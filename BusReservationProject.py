@@ -79,6 +79,27 @@ class Booking:
         print("=" * 45)
 
 # ==========================================================
+# DISPLAY MAIN MENU
+# ==========================================================
+
+def display_menu():
+
+    print("\n")
+    print("=" * 45)
+    print("       SWIFTTRAVEL BUS RESERVATION")
+    print("=" * 45)
+
+    print("1. View Buses")
+    print("2. View Available Seats")
+    print("3. Book Ticket")
+    print("4. Cancel Ticket")
+    print("5. View Booking")
+    print("6. Search Passenger / Booking")
+    print("7. Exit")
+
+    print("=" * 45)
+
+# ==========================================================
 # VIEW BUSES
 # ==========================================================
 
